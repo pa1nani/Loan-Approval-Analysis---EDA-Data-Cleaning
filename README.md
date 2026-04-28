@@ -8,11 +8,11 @@
 **🎯 Objectives**
 
 
-Understand the structure and quality of the dataset
-Identify and handle missing values
-Analyze relationships between features and loan approval
-Handle skewed numerical data and outliers
-Validate insights before and after data cleaning
+- Understand the structure and quality of the dataset
+- Identify and handle missing values
+- Analyze relationships between features and loan approval
+- Handle skewed numerical data and outliers
+- Validate insights before and after data cleaning
 
 
 
@@ -21,53 +21,53 @@ Validate insights before and after data cleaning
 The dataset contains information about loan applicants, including:
 
 
-Gender
-Married
-Dependents
-Education
-Self_Employed
-ApplicantIncome
-CoapplicantIncome
-LoanAmount
-Loan_Amount_Term
-Credit_History
-Property_Area
-Loan_Status
+- Gender
+- Married
+- Dependents
+- Education
+- Self_Employed
+- ApplicantIncome
+- CoapplicantIncome
+- LoanAmount
+- Loan_Amount_Term
+- Credit_History
+- Property_Area
+- Loan_Status
 
 
 
 **🔍 Exploratory Data Analysis**
 
-Initial exploration was performed to understand:
-Data types and structure
-Missing values across features
-Distribution of numerical variables
-Relationships between categorical features and loan approval
+- Initial exploration was performed to understand:
+- Data types and structure
+- Missing values across features
+- Distribution of numerical variables
+- Relationships between categorical features and loan approval
 
 
 **Key observations:**
 
 
-Missing values were present in multiple features
-Numerical features such as LoanAmount and Income were highly skewed
-Credit History showed a strong relationship with loan approval
+- Missing values were present in multiple features
+- Numerical features such as LoanAmount and Income were highly skewed
+- Credit History showed a strong relationship with loan approval
 
 
 **Data Cleaning & Preprocessing**
 
-Handling Missing Values
-Categorical features were imputed using mode
-Numerical features were imputed using median to reduce the impact of skewness
-Handling Skewness
-Numerical features such as LoanAmount, ApplicantIncome, and CoapplicantIncome were highly skewed
-Log transformation was applied to normalize distributions
+- Handling Missing Values
+- Categorical features were imputed using mode
+- Numerical features were imputed using median to reduce the impact of skewness
+- Handling Skewness
+- Numerical features such as LoanAmount, ApplicantIncome, and CoapplicantIncome were highly skewed
+- Log transformation was applied to normalize distributions
 
 
 **Outlier Handling**
 
 
-Outliers were identified in financial variables
-Instead of removing them, their impact was reduced using log transformation to preserve meaningful data
+- Outliers were identified in financial variables
+-  of removing them, their impact was reduced using log transformation to preserve meaningful data
 
 
 ***📊 Key Insights***
@@ -92,11 +92,11 @@ Income and Loan Amount contribute to loan approval decisions, but their impact i
 
 **🔄 Validation of Insights**
 
-The analysis was performed before and after data cleaning to ensure reliability.
-Only minor variations in approval rates were observed
-Overall patterns remained consistent
-Credit History continued to show strong influence
-Gender remained a weak factor
+- The analysis was performed before and after data cleaning to ensure reliability.
+- Only minor variations in approval rates were observed
+- Overall patterns remained consistent
+- Credit History continued to show strong influence
+- Gender remained a weak factor
 
 
 This confirms that the insights are stable and not significantly affected by missing values or inconsistencies.
@@ -109,28 +109,28 @@ The consistency of results before and after data cleaning confirms that the insi
 
 **🛠️ Tools & Technologies**
 
-Python
-Pandas
-NumPy
-Matplotlib
+- Python
+- Pandas
+- NumPy
+- Matplotlib
 
 
 **🚀 Key Learnings**
 
 
-Importance of handling missing data correctly
-Understanding skewness and applying appropriate transformations
-Avoiding blind removal of outliers in financial datasets
-Validating insights to ensure reliability
+- Importance of handling missing data correctly
+- Understanding skewness and applying appropriate transformations
+- Avoiding blind removal of outliers in financial datasets
+- Validating insights to ensure reliability
 
 
 **📌 Future Improvements**
 
 
-Build predictive models for loan approval
-Perform feature importance analysis
-Explore advanced techniques for handling imbalance
+- Build predictive models for loan approval
+- Perform feature importance analysis
+- Explore advanced techniques for handling imbalance
 
 
 **👤 Author**
-Pavan Kalyan Kasipaka
+*Pavan Kalyan Kasipaka*
