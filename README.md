@@ -1,4 +1,4 @@
-###📊 Loan Approval Analysis – EDA & Data Cleaning
+***📊 Loan Approval Analysis – EDA & Data Cleaning***
 
 **📌 Overview**
 
@@ -70,8 +70,7 @@ Outliers were identified in financial variables
 Instead of removing them, their impact was reduced using log transformation to preserve meaningful data
 
 
-
-###📊 Key Insights**
+***📊 Key Insights***
 
 **Credit History**
 
