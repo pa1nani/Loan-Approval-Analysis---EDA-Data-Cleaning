@@ -2,8 +2,8 @@
 
 **📌 Overview**
 
-This project focuses on performing exploratory data analysis (EDA) and data preprocessing on a loan approval dataset to understand the key factors influencing loan approval decisions.
-The analysis includes handling missing values, addressing skewness, validating insights, and ensuring the reliability of results through comparison before and after data cleaning.
+- This project focuses on performing exploratory data analysis (EDA) and data preprocessing on a loan approval dataset to understand the key factors influencing loan approval decisions.
+- The analysis includes handling missing values, addressing skewness, validating insights, and ensuring the reliability of results through comparison before and after data cleaning.
 
 **🎯 Objectives**
 
